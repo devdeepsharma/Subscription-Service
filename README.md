@@ -71,7 +71,7 @@ By building on blockchain technology, we ensure that all transactions are transp
 - **Insurance Integration**: Subscription payment insurance for added user protection
 - **DeFi Integration**: Yield farming opportunities for idle subscription funds
 
-###Contract Details: 0x21190Bb2CAE14C01Dd2fC99Eef5b589ec17f8979
+🔗 Contract Address: [0x21190Bb2...](https://etherscan.io/address/0x21190Bb2CAE14C01Dd2fC99Eef5b589ec17f8979)
 
 ---
 
