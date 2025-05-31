@@ -73,31 +73,4 @@ By building on blockchain technology, we ensure that all transactions are transp
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Node.js and npm installed
-- Hardhat or Truffle development environment
-- MetaMask or similar Web3 wallet
-- Test ETH for deployment and testing
-
-### Installation
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Compile contracts: `npx hardhat compile`
-4. Run tests: `npx hardhat test`
-5. Deploy to testnet: `npx hardhat run scripts/deploy.js --network goerli`
-
-### Usage
-1. Deploy the contract to your preferred network
-2. Create subscription plans using `createSubscriptionPlan()`
-3. Users can subscribe using `subscribeToService()`
-4. Process recurring payments with `processRecurringPayment()`
-
-## Contributing
-We welcome contributions from the community. Please read our contributing guidelines and submit pull requests for any improvements.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ![Screenshot 2025-05-26 124622](https://github.com/user-attachments/assets/c6be1012-310f-4141-a263-d8084736eda9)
