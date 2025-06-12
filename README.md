@@ -43,7 +43,7 @@ By building on blockchain technology, we ensure that all transactions are transp
 
 ### Phase 2 - Enhanced Features
 - **Multiple Payment Tokens**: Support for various ERC-20 tokens beyond ETH
-- **Discount Systems**: Implementation of coupon codes, promotional rates, and loyalty rewards
+- **Discount Systems**: Implementation of coupon codes, promotional rates, loyalty rewards
 - **Trial Periods**: Free trial functionality with automatic conversion to paid subscriptions
 - **Subscription Tiers**: Upgrade/downgrade functionality between different plan levels
 
