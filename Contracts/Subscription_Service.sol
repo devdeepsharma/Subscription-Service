@@ -1,11 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-/**
- * @title SubscriptionService
- * @dev Smart contract for managing recurring subscription payments with automatic billing cycles
- * @author Your Name
- */
+
 contract SubscriptionService {
     
     // Struct to define subscription plans
@@ -65,12 +61,6 @@ contract SubscriptionService {
         nextPlanId = 0;
     }
     
-    /**
-     * @dev Core Function 1: Create a new subscription plan
-     * @param _name Name of the subscription plan
-     * @param _price Price per billing cycle in wei
-     * @param _duration Duration of billing cycle in seconds
-     */
     function createSubscriptionPlan(
         string memory _name,
         uint256 _price,
@@ -91,10 +81,6 @@ contract SubscriptionService {
         nextPlanId++;
     }
     
-    /**
-     * @dev Core Function 2: Subscribe to a plan and handle recurring payments
-     * @param _planId ID of the subscription plan to subscribe to
-     */
     function subscribeToService(uint256 _planId) external payable validPlan(_planId) {
         require(!userSubscriptions[msg.sender].isActive, "User already has active subscription");
         
