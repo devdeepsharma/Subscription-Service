@@ -3,9 +3,7 @@ pragma solidity ^0.8.19;
 
 
 contract SubscriptionService {
-    
-    // Struct to define subscription plans
-    struct SubscriptionPlan {
+        struct SubscriptionPlan {
         uint256 price;           // Price per billing cycle in wei
         uint256 duration;        // Duration of each billing cycle in seconds
         bool isActive;           // Whether the plan is currently available
