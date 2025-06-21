@@ -10,7 +10,6 @@ contract SubscriptionService {
         string name;             // Name of the subscription plan
     }
     
-    // Struct to track individual user subscriptions
     struct UserSubscription {
         uint256 planId;          // ID of the subscribed plan
         uint256 startTime;       // When the subscription started
@@ -222,9 +221,7 @@ contract SubscriptionService {
         return subscription.isActive && block.timestamp >= subscription.nextPayment;
     }
     
-    /**
-     * @dev Get all available subscription plans
-     */
+ 
     function getActivePlans() external view returns (uint256[] memory) {
         uint256[] memory activePlans = new uint256[](nextPlanId);
         uint256 count = 0;
